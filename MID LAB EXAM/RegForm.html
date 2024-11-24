@@ -5,7 +5,7 @@
 <body>
         <h2>Registration Form</h>
 
-        <form method = "post" action="LAB EXAM.php">
+        <form method = "post" action="RegForm.php">
             <fieldset >
                 <legend><h4>Signup</h4></legend>
                 <table>
@@ -24,11 +24,10 @@
                     <tr>
                         <td>Dept:</td>
                         <td>
-                            <select name="">
-                                <option value="">CSE</option>
-                                <option value="">CS</option>
-                                <option value="">SE</option>
-                            </select>
+                            <input type="radio" name="dept"  value=""> CSE  
+                            <input type="radio" name="dept"  value=""> EEE  
+                            <input type="radio" name="dept"  value=""> BBA
+                            <input type="radio" name="dept"  value=""> BArch
                         </td>
                     </tr>
                     <tr>
@@ -45,7 +44,7 @@
                     </tr>
                     <tr>
                         <td>Address: </td>
-                        <td><textarea></textarea> </td>
+                        <td><textarea name = "address"></textarea> </td>
                     </tr>
                     <tr>
                         <td>Password:</td>

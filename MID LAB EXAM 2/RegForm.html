@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+        <h2>Registration Form</h>
+
+        <form method = "post" action="RegForm.php">
+            <fieldset>
+                <legend><h4>Signup</h4></legend>
+                <table>
+                    <tr>
+                        <td>ID:</td>
+                        <td><input type="number"  name="id" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="password" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password:</td>
+                        <td><input type="password" name="cpassword" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="username" value="" placeholder="type your name" /></td>
+                    </tr>
+                    
+                    
+
+                    
+                    <tr>
+                        <td>User Type</td>
+                        <td>
+                            <select name="role">
+                                <option value="admin">Admin</option>
+                                <option value="user">User</option>
+                            </select>
+                            
+                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td></td>
+                        <td>
+                            
+                            <input type="submit" name="submit" value="Submit"  />
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>     
+        </form> 
+</body>
+</html>
